@@ -1,0 +1,90 @@
+header>h1{
+    text-align:center;
+    background-color: lightcyan;
+    border-radius: 10px; 
+    padding: 20px; 
+    border: orange 2px solid;
+    box-shadow:10px 10px silver;
+    padding: 20px 0px;
+    text-shadow: 2px 4px blue;
+}
+
+body{
+    background-color: skyblue;
+}
+
+a:hover{
+    font-style: italeic;
+    text-shadow: none;
+}
+
+.wwh-container{
+    justify-content: space-around; 
+    display:flex;
+    margin:30px 10px;
+}
+.wwh-container>section{
+    width:31%;
+    background-color:rgba(224,255,255,0.7);
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+#ruleset p{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ruleset p>span{
+    margin: 0px 20px;
+}
+
+table {
+    border-collapse: collapse;
+  }
+  
+th,td {
+border: 2px soild;
+padding:3px;
+}
+
+caption{
+font-size: 1.2em;
+font-weight:bold;
+margin-bottom:10px;
+}
+
+
+td:first-child{
+width:200px;
+}
+
+td:nth-child(even){
+width:400px;
+}
+
+a:link{
+color:blue
+}
+a:visited{
+color:brown
+}
+table caption::after{
+content:" click each cell !";
+color:red;
+}
+thead tr{
+background-color: lightskyblue;
+}
+
+tbody tr:hover:nth-child(odd){
+background-color:yellow
+}
+tbody td:active{
+font-size: 20px;
+}
+tbody tr:hover:nth-child(even){
+background-color: lightskyblue;
+}

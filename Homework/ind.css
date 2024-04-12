@@ -1,0 +1,107 @@
+.img-container{
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:10px;
+}
+
+.img-container img{
+    display: block;
+    max-width:60%;
+    height: auto;
+    margin: 0 auto;
+}
+
+table, th, td{
+    border:1px solid #ccc;
+}
+td img{
+    width:200px;
+    height:200px;
+    
+}
+
+input[type="button"]:disabled {
+    background-color: #ccc; 
+    cursor: not-allowed; 
+}
+
+a[href]:visited{
+    color: green;
+}
+
+a[href]:hover{
+    color: yellow;
+}
+
+td:first-child{
+    color:blue;
+}
+
+body > #last {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+    z-index: 10;
+    transition-property:background-color, color, width;
+    transition-duration:1s;
+    transition-delay:1s;
+}
+
+
+body> #last:hover{
+    background-color:blue;
+}
+
+.TEXT{
+
+    text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+    nav {
+        flex-direction: column;
+    }
+    nav a {
+        margin: 15px 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+h1{
+  font-family:"Roboto", sans-serif;
+  font-size:35px;
+  font-weight:800;
+  font-style:italic;
+  color:blueviolet;
+  margin: 20px; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  width: 500px; 
+  height: 100px; 
+  box-sizing: border-box;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  background-image: url('./Gamma.png');
+  background-size: 100px;
+  background-repeat: no-repeat;
+  
+}

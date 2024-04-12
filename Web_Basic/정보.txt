@@ -1,0 +1,6 @@
+Fiver Server 실행 
+http://143.198.134.248:41051/
+https://stir.tistory.com/m/195
+    <script src="./eruda.js"></script> 
+    <script>eruda.init();</script> 
+git config --global http.postBuffer 157286400

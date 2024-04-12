@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="./feed.css">
+</head>
+<body>
+    <header>
+        <h1 class="head-1">인공지능 서비스 Feedback</h1>
+    </header>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./feedback.html">Feedback</a>
+        <br>
+        <br>
+    </nav>
+    <br>
+    <section>
+        <form action="#" method="post">
+            <fieldset>
+                <legend><b>개인정보</b></legend>
+                <label>이름 <input type="text" id="name"></label>
+                <br>
+                <label>비밀번호 <input type="password"></label>
+                <br>
+                <label>이메일 <input type="email"></label>
+                <br>
+                <label>날짜(년/월/일) <input type="date"></label>
+            </fieldset>
+            <fieldset>
+                <legend><b>인공지능 서비스 선호도</b></legend>
+                <p>사용해 본 인공지능 서비스</p>
+                <label> <input type="checkbox">Gamma</label>
+                <label> <input type="checkbox">SlidesAI</label>
+                <label> <input type="checkbox">Github Copilot</label>
+                <br>
+                <p>가장 유용한 서비스</p>
+                <label> <input type="radio" name="service">Gamma</label>
+                <label> <input type="radio" name="service">SlidesAI</label>
+                <label> <input type="radio" name="service">Github Copilot</label>
+                <br>
+                <p>관심 있는 분야</p>
+                <select multiple>
+                    <option value="의료">의료</option>
+                    <option value="자율주행">자율주행</option>
+                    <option value="금융">금융</option>
+                </select>
+                <p>만족도 레벨</p>
+                <label><input type="range" min="1" max="5">단계</label>
+                <p>바라는 서비스 개선 방향</p>
+                <textarea cols="50" rows="5"></textarea>
+                <br>
+                <input type="submit" value="제출">
+                <input type="reset" value="초기화">
+            </fieldset>
+            <input type="button" value="비활성 링크" disabled> 
+        </form>
+    </section>
+    <footer id="last">
+        <p>이형석 60191956 gudtjr3638@mju.ac.kr 2024-03-18</p>
+    </footer>
+</body>
+</html>

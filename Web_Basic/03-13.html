@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03-13과제</title>
+    <style>
+        table,img{
+            border-collapse:collapse;
+        }
+        p{
+            background:yellow;
+        }
+        
+        .test{
+            background:red;
+        }
+        #content{
+            background:black;
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <script src="./eruda.js"></script> 
+    <script>eruda.init();</script> 
+    <h1 style="color:blue">이형석의 소개</h1>
+    <p>2000년생으로 정보통신공학과 19학번으로 재학 중이다.</p>
+    <p>관심 분야는 데이터 사이언스이다.</p>
+    <ul class="test">
+        <li><a id="content" href="https://www.naver.com">네이버</a></li>
+        <li><a href="https://www.google.com">구글</a></li>
+    </ul>
+    <img width="200" height="200", src="./수업참여0313-이형석60191956.jpg">
+    <br>
+    <br>
+    <table>
+        <caption>월,수 시간표</caption>
+        <tr>
+            <th>시간</th>
+            <th>월요일</th>
+            <th>수요일</th>
+        </tr>
+        <tr>
+            <td>1교시</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>2교시</td>
+            <td rowspan=2>기초웹</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>3교시</td>
+            <td >기초웹</td>
+            
+        </tr>
+        <tr>
+            <td>4교시</td>
+            <td colspan=2>점심시간 </td>
+        </tr>
+    </table>
+</body>
+</html>

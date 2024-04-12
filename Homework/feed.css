@@ -1,0 +1,70 @@
+body > #last {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+    z-index: 10;
+    transition-property:background-color, color, width;
+    transition-duration:1s;
+    transition-delay:1s;
+}
+body> #last:hover{
+    background-color:blue;
+}
+
+a[href]:visited{
+    color: green;
+}
+
+a[href]:hover{
+    color: yellow;
+}
+
+input[type="button"]:disabled {
+    background-color: #ccc; 
+    cursor: not-allowed; 
+}
+
+@media only screen and (max-width: 767px) {
+    nav {
+        flex-direction: column;
+    }
+    nav a {
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+body label:first-of-type{
+    font-weight: 800
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.head-1{
+  font-family:"Roboto", sans-serif;
+  font-size:35px;
+  font-weight:800;
+  font-style:italic;
+  color:black;
+  margin: 20px; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  width: 500px; 
+  height: 100px; 
+  box-sizing: border-box;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  background-image: url('./Gamma.png');
+  background-size: 100px;
+  background-repeat: no-repeat;
+  
+}

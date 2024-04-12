@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Basics</title>
+  <link rel="stylesheet" href="./CSS_basic.css">
+</head>
+<body>
+  <header>
+    <h1>CSS Basics</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#what">What is CSS?</a></li>
+      <li><a href="#why">Why Use CSS?</a></li>
+      <li><a href="#how">How to Use CSS?</a></li>
+        <ul>
+          <li><a href="#ruleset">Anatomy of a CSS ruleset</a></li>
+          <li><a href="#selectors">Different types of selectors</a></li>
+        </ul>
+    </ul>
+  </nav>
+
+  <hr>
+  <section id='what'>
+    <h2>What is CSS?</h2>
+    <p>
+      <strong><em>CSS(Cascading Style Sheets)</em></strong> is the code that styles web content. Like HTML, CSS is not a programming language. It's not a markup language either. <strong> CSS is a style sheet language.</strong> CSS is what you use to selectively style HTML elements. For example, this CSS selects paragraph text, setting the color to red:
+    </p>
+    <pre>
+      <code>
+        p {
+          color: red;
+        }
+      </code>
+    </pre> 
+  </section>
+
+  <section id='why'>
+    <h2>Why Use CSS?</h2>
+    <p>
+      CSS is used to style web pages. Without CSS, web pages would all look the same. With CSS, you can change colors, add animations, and create layouts. CSS is a powerful tool for web designers.
+    </p>
+  </section>
+
+  <section id='how'>
+    <h2>How to Use CSS</h2>
+    <p>
+      There are three ways to use CSS: inline, internal, and external. Inline CSS is used to style a single HTML element. Internal CSS is used to style a single web page. External CSS is used to style multiple web pages.
+    </p>
+
+    <h3 id='ruleset'>Anatomy of a CSS ruleset</h3>
+    <p>
+      A CSS ruleset consists of a selector and a declaration block. The selector is the HTML element you want to style. The declaration block contains one or more declarations separated by semicolons. Each declaration includes a CSS property name and a value, separated by a colon.
+    </p>
+    <p>
+      <img src="./css-declaration.png" width='400px' alt='a CSS ruleset'>
+    </p>
+
+    <h3 id='selectors'>Different types of selectors</h3>
+    <p>
+      There are many different types of selectors in CSS. 
+    </p>  
+
+    <table>
+      <caption><strong>Types of Selectors</strong></caption>
+      <thead>
+        <tr>
+          <th>Selector</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Element Selector</td>
+          <td>Selects all instances of an HTML element</td>
+        </tr>
+        <tr>
+          <td>ID Selector</td>
+          <td>Selects a single HTML element with a specific ID</td>
+        </tr>
+        <tr>
+          <td>Class Selector</td>
+          <td>Selects all HTML elements with a specific class</td>
+        </tr>
+        <tr>
+          <td>Descendant Selector</td>
+          <td>Selects an HTML element that is a descendant of another HTML element</td>
+        </tr>
+        <tr>
+          <td>Child Selector</td>
+          <td>Selects an HTML element that is a child of another HTML element</td>
+        </tr>
+        <tr>
+          <td>Adjacent Sibling Selector</td>
+          <td>Selects an HTML element that is the adjacent sibling of another HTML element</td>
+        </tr>
+        <tr>
+          <td>Attribute Selector</td>
+          <td>Selects an HTML element with a specific attribute</td>
+        </tr>
+        <tr>
+          <td>Pseudo-class Selector</td>
+          <td>Selects an HTML element with a specific state</td>
+        </tr>
+        <tr>
+          <td>Pseudo-element Selector</td>
+          <td>Selects a specific part of an HTML element</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </section>
+
+  <footer>
+    <hr>
+    <p>&copy; 2024 CSS Basics</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,87 @@
+table {
+  border-collapse: collapse;
+}
+
+th,td {
+  border: 2px soild;
+  padding:3px;
+}
+
+caption{
+  font-size: 1.2em;
+  font-weight:bold;
+  margin-bottom:10px;
+}
+
+
+td:first-child{
+  width:200px;
+}
+
+td:nth-child(even){
+  width:400px;
+}
+
+a:link{
+  color:blue
+}
+a:visited{
+  color:brown
+}
+table caption::after{
+  content:" click each cell !";
+  color:red;
+}
+thead tr{
+  background-color: lightskyblue;
+}
+
+tbody tr:hover:nth-child(odd){
+  background-color:yellow
+}
+tbody td:active{
+  font-size: 20px;
+}
+tbody tr:hover:nth-child(even){
+  background-color: lightskyblue;
+}
+
+body{
+  background-image: url("./css-declaration.png");
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: top right;
+  background-attachment: fixed;   
+}
+
+header>h1{
+  text-align:center;
+  background-color:yellow;
+  width:80%;
+  border: orange 22px solid;
+  box-shadow:10px 10px silver;
+  padding: 20px 0px;
+  box-sizing: border-box; //content 영역외에도 border까지 영역 확장; 
+}
+
+nav ul>li{
+  display:inline;
+  margin:10px 20px;
+  width: 150px;
+  background-color: lightblue;
+}
+
+nav a{
+  display
+}
+p{
+ text-align:justify;
+ line-height: 2rem;
+}
+
+
+a{
+  text-decoration: none; 
+  line-height: 140%
+}
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>:first-child, :last-child</title>
+  <style>
+    li:nth-of-type(even){
+      color:magenta;
+    }
+    li:nth-of-type(odd){
+      color:blue;
+    }
+    li:nth-of-type(3n+1){
+      background: yellow;
+    }
+    li:nth-last-of-type(3n){
+      background: lightcyan;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li>lorem 1</li>
+    <li>lorem 2</li>
+    <li>lorem 3</li>
+    <li>lorem 4</li>
+    <li>lorem 5</li>
+    <li>lorem 6</li>
+    <li>lorem 7</li>
+  </ul>
+</body>
+</html>
