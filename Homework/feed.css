@@ -12,7 +12,22 @@ body > #last {
 body> #last:hover{
     background-color:blue;
 }
+nav {
+    background-color: #f4f4f4;
+    padding: 1rem;
+}
+nav a {
+    text-decoration: none;
+    color: white; 
+    margin-right: 1rem;
+    font-weight: bold; 
+    transition: color 0.3s; 
+}
 
+a {
+    text-decoration: none;
+    margin-right: 1rem;
+}
 a[href]:visited{
     color: green;
 }
@@ -47,24 +62,24 @@ body label:first-of-type{
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 .head-1{
-  font-family:"Roboto", sans-serif;
-  font-size:35px;
-  font-weight:800;
-  font-style:italic;
-  color:black;
-  margin: 20px; 
-  padding: 10px; 
-  border: 1px solid #ccc; 
-  width: 500px; 
-  height: 100px; 
-  box-sizing: border-box;
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
-  background-image: url('./Gamma.png');
-  background-size: 100px;
-  background-repeat: no-repeat;
+    font-family:"Roboto", sans-serif;
+    font-size:35px;
+    font-weight:800;
+    font-style:italic;
+    color:blueviolet;
+    margin: 20px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    width: auto; 
+    height: auto; 
+    box-sizing: border-box;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url('./Gamma.png');
+    background-size: 70px;
+    background-repeat: no-repeat;
   
 }
