@@ -17,9 +17,7 @@ nav {
     padding: 1rem;
 }
 nav a {
-    text-decoration: none;
     color: white; 
-    margin-right: 1rem;
     font-weight: bold; 
     transition: color 0.3s; 
 }
@@ -41,21 +39,6 @@ input[type="button"]:disabled {
     cursor: not-allowed; 
 }
 
-@media only screen and (max-width: 767px) {
-    nav {
-        flex-direction: column;
-    }
-    nav a {
-        margin: 10px 0;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    body {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
 body label:first-of-type{
     font-weight: 800
 }
@@ -63,7 +46,7 @@ body label:first-of-type{
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 .head-1{
     font-family:"Roboto", sans-serif;
-    font-size:35px;
+    font-size:1rem;
     font-weight:800;
     font-style:italic;
     color:blueviolet;
@@ -79,7 +62,39 @@ body label:first-of-type{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
     background-image: url('./Gamma.png');
-    background-size: 70px;
+    background-size: 40px;
     background-repeat: no-repeat;
   
+}
+
+@media only screen and (max-width: 520px) {
+    nav a {
+        margin: 10px 0;
+    }
+    #main_form{
+        display:grid;
+        grid-template-columns: repeat(1, 0.5fr);
+        justify-items: center;
+    }
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    input[type="date"],
+    textarea,
+    select {
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+}
+
+@media only screen and (min-width: 521px) {
+    .container {
+        padding: 20px;
+    }
+    .head-1{
+        font-size:30px;
+        background-size: 60px;
+    }
 }
