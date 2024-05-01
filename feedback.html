@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인공지능 서비스 Feedback</title>
+    <link rel="stylesheet" href="./feedback.css">
+</head>
+<body>
+    <header>
+        <h1>인공지능 서비스 Feedback</h1>
+        <nav>
+            <a href="./test.html">Home</a>
+            <a href="./feedback.html">Feedback</a>
+        </nav>
+    </header>
+    <section>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>개인정보</legend>
+                <label>이름 <input type="text"></label>
+                <br>
+                <label>비밀번호 <input type="password"></label>
+                <br>
+                <label>이메일 <input type="email"></label>
+                <br>
+                <label>날짜(년/월/일) <input type="date"></label>
+            </fieldset>
+            <fieldset>
+                <legend>인공지능 서비스 선호도</legend>
+                <p>사용해 본 인공지능 서비스</p>
+                <label> <input type="checkbox">Gamma</label>
+                <label> <input type="checkbox">SlidesAI</label>
+                <label> <input type="checkbox">Github Copilot</label>
+                <p>가장 유용한 서비스</p>
+                <label> <input type="radio" name="rad">Gamma</label>
+                <label> <input type="radio" name="rad">SlidesAI</label>
+                <label> <input type="radio" name="rad">Github Copilot</label>
+                <p>관심있는 서비스 분야</p>
+                <select multiple>
+                    <option value="의료">의료</option>
+                    <option value="자율주행">자율주행</option>
+                    <option value="금융">금융</option>
+                </select>
+                <p>만족도 레벨</p>
+                <label><input type="range" min="1" max="5">단계</label>
+                <p>바라는 서비스 개선 방향</p>
+                <textarea rows="10" cols="30"></textarea>
+                <br>
+                <input type="submit" value="제출">
+                <input type="reset" value="초기화">
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <p>이형석 60191956 gudtjr3638@mju.ac.kr 2024-04-20</p>
+    </footer>
+</body>
+</html>
