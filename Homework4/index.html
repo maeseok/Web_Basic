@@ -1,0 +1,35 @@
+<!--이형석 60191956 기초웹프로그래밍 과제4-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Guessing Game</title>
+    <link rel="stylesheet" href="./basic.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Word Guessing Game</h1>
+        </header>
+        <main class="MAIN">
+            <div class="score_container"><p>Score: <span id="score">0</span>/5</p></div>
+            <p id="meaning">Meaning: A feeling of great pleasure and happiness.</p>
+            <div class="word" id="word">___</div>
+            <br>
+            <input type="text" id="guess" maxlength="1" placeholder="Enter your guess" autofocus>
+            <button id="submitGuess">Submit Guess</button>
+            <button id="nextWord" style="display: none;">Next Word</button>
+            <button id="rank" style="display: none;">Check your rank</button>
+            <button id="resetScore" style="display: none;">Reset</button>
+            <button id="hint" style="display: inline;">Hint</button>
+            <p class="message" id="message"></p>
+            <span id="try">total try:0</span>
+        </main>
+    </div>
+    <footer id="last">
+        <p>이형석 60191956 기초웹프로그래밍 과제4</p>
+    </footer>
+    <script src="./basic.js"></script>
+</body>
+</html>

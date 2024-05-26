@@ -1,0 +1,51 @@
+/*이형석 60191956 기초웹프로그래밍 과제4*/
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+.success {
+    color: #155724;
+}
+.score_container{
+    width:500px;
+    height:50px;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-color: rgba(128,128,128,0.5);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.word {
+    font-size: 24px;
+    letter-spacing: 10px;
+    font-weight: 700;
+}
+.message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgba(128,128,128,1.0)
+}
+
+#guess {
+    font-size: 20px;
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
