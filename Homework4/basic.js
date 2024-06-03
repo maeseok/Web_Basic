@@ -108,18 +108,19 @@ document.addEventListener("DOMContentLoaded", ()=> {
             totalLength+=words[i].word.length;
         }
         if(totalTry<=totalLength){
-            totalTryContent.innerText = "Genius"; 
+            totalTryContent.innerText = "Your rank is Genius"; 
         }
         else if(totalTry<=totalLength+5){
-            totalTryContent.innerText = "Smart"; 
+            totalTryContent.innerText = "Your rank is Smart"; 
         }
         else if(totalTry<=totalLength+10){
-            totalTryContent.innerText = "Common"; 
+            totalTryContent.innerText = "Your rank is Common"; 
         }
         else{
-            totalTryContent.innerText = "Cheer up"; 
+            totalTryContent.innerText = "Your rank is Cheer up"; 
         }
         rankButton.style.display = "none";
+        totalTryContent.style.fontSize='40px';
         wordElement.innerText = ""
     }
     
