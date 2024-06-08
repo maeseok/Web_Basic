@@ -1,0 +1,38 @@
+.BasketInsert {
+  display: flex;
+  align-items: center;
+  background: #495057;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.BasketInsert input {
+  flex: 1;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: white;
+  ::placeholder {
+    color: #dee2e6;
+  }
+}
+
+.BasketInsert button {
+  background: #868e96;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.BasketInsert button:hover {
+  background: #adb5bd;
+}
